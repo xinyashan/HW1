@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Changing Screen Size</title>
+</head>
+<body>
+  
+<style>
+    @media (min-width:992px) { 
+        .desktop-only {
+            display: inline-block !important;
+            
+        }
+    }</style>
+
+
+<style>
+        @media (min-width:992px) { 
+            .desktop-only {
+                display: inline-block !important;
+                
+            }
+        
+        @media (max-width: 600px) {
+            .mobile-only {
+                display:inline-block !important; 
+            
+            }</style>
+
+            
+
+
+
+
+
+
+</body>
+</html>

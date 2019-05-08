@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+        
+
+    /* medium+ screen size */
+    @media (min-width: 992px) { 
+        .desktop-only {
+            display:inline-block !important;   
+
+        }
+        .mobile-only {
+            display: none;
+
+        }
+    }
+    /* cellphone size */
+    @media (max-width: 991px) {
+        .desktop-only{
+            display: none;
+
+        }
+        .mobile-only {
+            display: inline-block;
+        }
+        
+        </style>
+        
+    
+    <h1 class="mobile-only"></h1>
+        <p class="desktop-only"></p>
+    /* <nav>
+        <a href="page2.html">text</a>
+        <a href="page3.html">text</a>
+        <a href="#">text</a>
+
+    </nav> */
+
+
+</body>
+</html>
